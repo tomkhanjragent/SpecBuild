@@ -1,0 +1,6 @@
+{
+  "name": "TeamTree",
+  "description": "Private multi-level user and host management platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

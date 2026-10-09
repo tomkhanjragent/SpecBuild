@@ -1,0 +1,147 @@
+{
+  "users": [],
+  "user_roles": [],
+  "apps": [
+    {
+      "id": "706aefee-edd4-4828-bd71-d59d3cf45a91",
+      "name": "Mako",
+      "sort_order": 1,
+      "created_at": "2026-10-07T21:21:47.846Z"
+    },
+    {
+      "id": "dcdfa5d6-4644-4749-beec-3aa11ee09c56",
+      "name": "Ayar",
+      "sort_order": 2,
+      "created_at": "2026-10-07T21:21:47.846Z"
+    },
+    {
+      "id": "be23d6bc-c707-4933-87eb-356e1bd9d9d5",
+      "name": "Chamet",
+      "sort_order": 3,
+      "created_at": "2026-10-07T21:21:47.846Z"
+    },
+    {
+      "id": "30ed0b45-09a2-409c-ac2d-21002caf3216",
+      "name": "Tigo",
+      "sort_order": 4,
+      "created_at": "2026-10-07T21:21:47.846Z"
+    }
+  ],
+  "custom_fields": [
+    {
+      "id": "85ecf6b0-74d8-47e6-bcc7-ef7554f8a03c",
+      "section": "Payment",
+      "label": "Payment Method",
+      "field_type": "text",
+      "sort_order": 1,
+      "created_at": "2026-10-07T21:21:47.847Z"
+    },
+    {
+      "id": "24aaf9b5-3417-40cc-ad3e-38d78a320bd4",
+      "section": "Work",
+      "label": "Target",
+      "field_type": "text",
+      "sort_order": 2,
+      "created_at": "2026-10-07T21:21:47.847Z"
+    },
+    {
+      "id": "2a8fa237-d909-432d-8738-b3818e13da46",
+      "section": "Work",
+      "label": "Note",
+      "field_type": "text",
+      "sort_order": 3,
+      "created_at": "2026-10-07T21:21:47.847Z"
+    }
+  ],
+  "members": [
+    {
+      "id": "3ddf3ece-68f3-4b00-841c-a5202a74ebaa",
+      "app_id": "706aefee-edd4-4828-bd71-d59d3cf45a91",
+      "parent_id": null,
+      "name": "Maha",
+      "phone": "+8801700000001",
+      "whatsapp": "8801700000001",
+      "app_user_id": "MK-1001",
+      "photo_path": null,
+      "status": "active",
+      "joined_at": "2026-10-07T21:04:00.000Z",
+      "custom": {
+        "85ecf6b0-74d8-47e6-bcc7-ef7554f8a03c": "bKash Merchant",
+        "24aaf9b5-3417-40cc-ad3e-38d78a320bd4": "$5,000 / month",
+        "2a8fa237-d909-432d-8738-b3818e13da46": "Top Leader Agent for South Asia"
+      },
+      "created_at": "2026-10-07T21:21:47.847Z"
+    },
+    {
+      "id": "445c6e98-bd76-4de7-8732-5d4fdbc013c0",
+      "app_id": "706aefee-edd4-4828-bd71-d59d3cf45a91",
+      "parent_id": "3ddf3ece-68f3-4b00-841c-a5202a74ebaa",
+      "name": "Faria",
+      "phone": "+8801700000002",
+      "whatsapp": "8801700000002",
+      "app_user_id": "MK-1021",
+      "photo_path": null,
+      "status": "active",
+      "joined_at": "2026-10-07T21:21:47.847Z",
+      "custom": {
+        "85ecf6b0-74d8-47e6-bcc7-ef7554f8a03c": "Nagad",
+        "24aaf9b5-3417-40cc-ad3e-38d78a320bd4": "$1,500",
+        "2a8fa237-d909-432d-8738-b3818e13da46": "Consistent live streamer"
+      },
+      "created_at": "2026-10-07T21:21:47.847Z"
+    },
+    {
+      "id": "95425597-35bc-46a5-86cd-5be29fa099bb",
+      "app_id": "706aefee-edd4-4828-bd71-d59d3cf45a91",
+      "parent_id": "3ddf3ece-68f3-4b00-841c-a5202a74ebaa",
+      "name": "Liza",
+      "phone": "+8801700000003",
+      "whatsapp": "8801700000003",
+      "app_user_id": "MK-1022",
+      "photo_path": null,
+      "status": "active",
+      "joined_at": "2026-10-07T21:21:47.847Z",
+      "custom": {
+        "85ecf6b0-74d8-47e6-bcc7-ef7554f8a03c": "Bank Transfer",
+        "24aaf9b5-3417-40cc-ad3e-38d78a320bd4": "$2,000",
+        "2a8fa237-d909-432d-8738-b3818e13da46": "Recruiting new hosts"
+      },
+      "created_at": "2026-10-07T21:21:47.847Z"
+    },
+    {
+      "id": "f12d8dab-57e6-470d-8f80-e0a16ede4b08",
+      "app_id": "706aefee-edd4-4828-bd71-d59d3cf45a91",
+      "parent_id": "3ddf3ece-68f3-4b00-841c-a5202a74ebaa",
+      "name": "Mim",
+      "phone": "+8801700000004",
+      "whatsapp": "8801700000004",
+      "app_user_id": "MK-1023",
+      "photo_path": null,
+      "status": "no_work",
+      "joined_at": "2026-10-07T21:21:47.847Z",
+      "custom": {
+        "2a8fa237-d909-432d-8738-b3818e13da46": "Temporarily on leave due to exams"
+      },
+      "created_at": "2026-10-07T21:21:47.847Z"
+    },
+    {
+      "id": "61032d8a-7744-4c33-a4b8-cfdcc088b15a",
+      "app_id": "706aefee-edd4-4828-bd71-d59d3cf45a91",
+      "parent_id": null,
+      "name": "Pinky",
+      "phone": "+8801700000005",
+      "whatsapp": "8801700000005",
+      "app_user_id": "MK-1002",
+      "photo_path": null,
+      "status": "active",
+      "joined_at": "2026-10-07T21:21:47.847Z",
+      "custom": {
+        "85ecf6b0-74d8-47e6-bcc7-ef7554f8a03c": "bKash Personal",
+        "24aaf9b5-3417-40cc-ad3e-38d78a320bd4": "$1,800",
+        "2a8fa237-d909-432d-8738-b3818e13da46": "Independent agent branch"
+      },
+      "created_at": "2026-10-07T21:21:47.847Z"
+    }
+  ],
+  "sessions": []
+}
